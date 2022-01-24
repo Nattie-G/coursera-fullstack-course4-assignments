@@ -1,0 +1,18 @@
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+h2 {
+    margin: 30px 0px 30px 0px;
+}
+
+nav {
+    height: fit-content;
+}
+.card {
+    color: white;
+    margin: 0px 0px 40px 0px;
+}
+.card-title {
+    font-size: 1.2em;
+}
