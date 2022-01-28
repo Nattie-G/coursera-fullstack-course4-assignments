@@ -14,18 +14,41 @@
   <body>
     <header>
       <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
+        <div class="container-fluid">
           <a href="index.html" class="navbar-brand"><h1>Food, LLC</h1></a>
+          <button class="navbar-toggler visible-small d-md-none" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#collapsable-nav" aria-controls="collapsable-nav"
+                  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="visually-hidden">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav">
+              <li>
+                <hr>
+                <a href="" class="nav-link">Chicken</a>
+              </li>
+              <li>
+                <hr>
+                <a href="" class="nav-link">Beef</a>
+              </li>
+              <li>
+                <hr>
+                <a href="" class="nav-link">Sushi</a>
+              </li>
+
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
 
-    <div class="container">
+    <div class="container-fluid">
       <h2 class="text-center">Our Menu!</h2>
       
       <div class="row card bg-dark">
         <div class="col-xs-12">
-          <span class="card-title">Chicken</span>
+          <div class="card-title text-center">Chicken</div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt est repellat dicta eaque autem voluptatum dignissimos accusantium, in ipsa deleniti a! Possimus quo fuga id quas rem obcaecati voluptate.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt est repellat dicta eaque autem voluptatum dignissimos accusantium, in ipsa deleniti a! Possimus quo fuga id quas rem obcaecati voluptate.
