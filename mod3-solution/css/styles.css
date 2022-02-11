@@ -10,6 +10,19 @@ h2 {
     font-size: 1.75em;
 }
 
+
+section {
+    height: 700px;
+    background-color: burlywood;
+    margin: 0px 10px 50px;
+    position: relative;
+}
+
+.back-to-top {
+    position: absolute;
+    bottom: 0px;
+}
+
 nav {
     height: fit-content;
 }
