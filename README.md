@@ -15,6 +15,6 @@ https://github.com/jhu-ep-coursera/fullstack-course4/tree/master/assignments
 ### #3
 - this week was all about using twitter bootstrap but since the course is 2015 era, relies on a fairly old version.
 - I took extra time to study the documentation for bootstrap to update the assignment to run on bootstrap 5.1.
-### 4 & 5
+### #4 & 5
 - assignments 4 & 5 were fairly simple js tasks
 - assignment 5 uses bootstrap 3.x again because the weeks tasks were focused on JS
